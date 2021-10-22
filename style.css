@@ -59,7 +59,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid blue;
     height: 87.2vh;
 }
 
