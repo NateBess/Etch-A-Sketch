@@ -1,0 +1,101 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+h3 {
+    color: black;
+    background-color: yellow;
+    padding: .8rem;
+    border-radius: 1rem;
+}
+body {
+    background-color: gray;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 10px solid rgb(3, 190, 81);
+    background-color: black;
+    padding:  1rem 0;
+}
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding:  1rem 0;
+}
+.buttons {
+    width: 6rem;
+    height: 3rem;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.slider-container {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 0;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    width: 35rem;
+
+}
+#size-slider {
+    width: 30rem;
+}
+
+
+#red {background-color: red;}
+#blue {background-color: blue;}
+#green {background-color: green;}
+.active {border: 5px solid yellow;}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    height: 87.2vh;
+}
+
+
+
+
+/* Figure out how to flexbox a grid into this thing!!!!!! 
+    -Try to evenly divide space going virtically, then whith each vertical block
+    divide that space evenly all the way across
+*/
+
+.canvas {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    height:  800px;
+    width: 800px;
+    border: 5px solid;
+    background-color: white;
+}
+.pixel-layer {
+    display: flex;
+    width: 100%;
+    flex-basis: 100%;
+
+}
+.pixel {
+    display: flex;
+    flex-basis: 100%;
+    width: 100%;
+}
+
+#color-input {
+    width: 5rem;
+    height: 2.5rem;
+    margin-top: .3rem;
+    border: 3px solid white;
+    
+}
